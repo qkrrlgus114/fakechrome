@@ -3,9 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Momentum</title>
   </head>
   <body>
-    초기 htmlㅇ
+    <form id="login-form" class="hidden">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="너 이름이 뭐니?"
+      />
+      <button>로그인</button>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <script src="app.js"></script>
   </body>
 </html>
